@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\demo">
+      <UniqueIdentifier>{8de9e56b-d729-4aa3-ac69-a53c8c4c84f9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="d3dApp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTimer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DUtils.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MathHelper.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometryGenerator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Waves.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Box.cpp">
+      <Filter>源文件\demo</Filter>
+    </ClCompile>
+    <ClCompile Include="Skull.cpp">
+      <Filter>源文件\demo</Filter>
+    </ClCompile>
+    <ClCompile Include="WavesDemo.cpp">
+      <Filter>源文件\demo</Filter>
+    </ClCompile>
+    <ClCompile Include="Shapes.cpp">
+      <Filter>源文件\demo</Filter>
+    </ClCompile>
+    <ClCompile Include="Hills.cpp">
+      <Filter>源文件\demo</Filter>
+    </ClCompile>
+    <ClCompile Include="Lighting.cpp">
+      <Filter>源文件\demo</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TexturedHills.cpp">
+      <Filter>源文件\demo</Filter>
+    </ClCompile>
+    <ClCompile Include="Vertexs.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BlendDemo.cpp">
+      <Filter>源文件\demo</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderStates.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MirrorDemo.cpp">
+      <Filter>源文件\demo</Filter>
+    </ClCompile>
+    <ClCompile Include="TreeBillboardDemo.cpp">
+      <Filter>源文件\demo</Filter>
+    </ClCompile>
+    <ClCompile Include="VecAddDemo.cpp">
+      <Filter>源文件\demo</Filter>
+    </ClCompile>
+    <ClCompile Include="BlurFilter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BlurDemo.cpp">
+      <Filter>源文件\demo</Filter>
+    </ClCompile>
+    <ClCompile Include="TessllationDemo.cpp">
+      <Filter>源文件\demo</Filter>
+    </ClCompile>
+    <ClCompile Include="BezierPatch.cpp">
+      <Filter>源文件\demo</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraDemo.cpp">
+      <Filter>源文件\demo</Filter>
+    </ClCompile>
+    <ClCompile Include="InstancedAndCullingDemo.cpp">
+      <Filter>源文件\demo</Filter>
+    </ClCompile>
+    <ClCompile Include="xnacollision.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PickingDemo.cpp">
+      <Filter>源文件\demo</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicCubeMap.cpp">
+      <Filter>源文件\demo</Filter>
+    </ClCompile>
+    <ClCompile Include="Sky.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalDisplacementMapDemo.cpp">
+      <Filter>源文件\demo</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainDemo.cpp">
+      <Filter>源文件\demo</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystem.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticlesDemo.cpp">
+      <Filter>源文件\demo</Filter>
+    </ClCompile>
+    <ClCompile Include="ShadowMap.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ShadowsDemo.cpp">
+      <Filter>源文件\demo</Filter>
+    </ClCompile>
+    <ClCompile Include="SsaoDemo.cpp">
+      <Filter>源文件\demo</Filter>
+    </ClCompile>
+    <ClCompile Include="Ssao.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshGeometry.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicModel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureMgr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshDemo.cpp">
+      <Filter>源文件\demo</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationHelper.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="QuatApp.cpp">
+      <Filter>源文件\demo</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinnedModel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinnedData.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinnedMeshDemo.cpp">
+      <Filter>源文件\demo</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadM3d.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="d3dApp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTimer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DUtils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MathHelper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LigthHelper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dx11effect.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometryGenerator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Waves.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertexs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderStates.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BlurFilter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="xnacollision.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Sky.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ShadowMap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ssao.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshGeometry.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicModel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureMgr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationHelper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinnedModel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinnedData.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadM3d.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="Effects11.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="FX\color.fx">
+      <Filter>资源文件</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\Lighting.fx">
+      <Filter>资源文件</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\LightHelper.fx">
+      <Filter>资源文件</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\Basic.fx">
+      <Filter>资源文件</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\TreeSprite.fx">
+      <Filter>资源文件</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\VecAdd.fx">
+      <Filter>资源文件</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\Blur.fx">
+      <Filter>资源文件</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\Tessellation.fx">
+      <Filter>资源文件</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\BezierTessellation.fx">
+      <Filter>资源文件</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\InstancedBasic.fx">
+      <Filter>资源文件</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\Sky.fx">
+      <Filter>资源文件</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\DisplacementMap.fx">
+      <Filter>资源文件</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\NormalMap.fx">
+      <Filter>资源文件</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\Terrain.fx">
+      <Filter>资源文件</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\Fire.fx">
+      <Filter>资源文件</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\Rain.fx">
+      <Filter>资源文件</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\BuildShadowMap.fx">
+      <Filter>资源文件</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\Ssao.fx">
+      <Filter>资源文件</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\SsaoBlur.fx">
+      <Filter>资源文件</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\SsaoNormalDepth.fx">
+      <Filter>资源文件</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
