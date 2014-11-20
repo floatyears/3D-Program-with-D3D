@@ -80,7 +80,7 @@ private:
 	float mPhi;
 	float mRadius;
 
-	POINT mLastMousePos;
+	POINT mLastMousePos; //mouse
 
 };
 
@@ -91,7 +91,7 @@ private:
 /// <returns>Description of return value</returns>
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE prevInstance,PSTR cmdLine,int showCmd)
 {
-	// Enable run-time memory check for debug builds.debugÏÂÔÊÐíÔËÐÐÊ±ÄÚ´æ¼ì²é
+	// Enable run-time memory check for debug builds.debugä¸‹å…è®¸è¿è¡Œæ—¶å†…å­˜æ£€æŸ¥
 #if defined(DEBUG) | defined(_DEBUG)
 	_CrtSetDbgFlag(_CRTDBG_ALLOC_MEM_DF | _CRTDBG_LEAK_CHECK_DF);
 #endif
@@ -232,8 +232,8 @@ void BlendApp::UpdateScene(float dt)
 
 	mWaves.Update(dt);
 
-	//ÒòÎª¶¥µãÊý¾ÝÊÇ·ÅÔÚGPUµÄÄÚ´æÖÐ
-	//ÒªÏÈÓ³Éä²ÅÄÜÔÚCPUÖÐÐÞ¸Ä
+	//å› ä¸ºé¡¶ç‚¹æ•°æ®æ˜¯æ”¾åœ¨GPUçš„å†…å­˜ä¸­
+	//è¦å…ˆæ˜ å°„æ‰èƒ½åœ¨CPUä¸­ä¿®æ”¹
 	D3D11_MAPPED_SUBRESOURCE mappedData;
 	HR(md3dImmediateContext->Map(mWavesVB,0,D3D11_MAP_WRITE_DISCARD,0,&mappedData));
 
@@ -251,7 +251,7 @@ void BlendApp::UpdateScene(float dt)
 
 	XMMATRIX wavesScale = XMMatrixScaling(5.0f,5.0f,0.0f);
 
-	//ËæÊ±¼ä±ä»»ÎÆÀí
+	//éšæ—¶é—´å˜æ¢çº¹ç†
 	mWaterTexOffset.y += 0.05f*dt;
 	mWaterTexOffset.x += 0.1f*dt;
 
@@ -287,7 +287,7 @@ void BlendApp::DrawScene()
 	XMMATRIX viewProj = view*proj;
 
 
-	//ÉèÖÃÃ¿Ò»Ö¡µÄ³£Á¿
+	//è®¾ç½®æ¯ä¸€å¸§çš„å¸¸é‡
 	Effects::BasicFX->SetDirLights(mDirLights);
 	Effects::BasicFX->SetEyePosW(mEyePosW);
 	Effects::BasicFX->SetFogColor(Colors::Silver);
@@ -315,7 +315,7 @@ void BlendApp::DrawScene()
 
 	D3DX11_TECHNIQUE_DESC techDesc;
 
-	//»æÖÆºÐ×Ó£¬´øÓÐalpha¼ôÇÐ
+	//ç»˜åˆ¶ç›’å­ï¼Œå¸¦æœ‰alphaå‰ªåˆ‡
 	boxTech->GetDesc(&techDesc);
 	for(UINT p = 0; p < techDesc.Passes; ++p)
 	{
@@ -337,7 +337,7 @@ void BlendApp::DrawScene()
 		boxTech->GetPassByIndex(p)->Apply(0,md3dImmediateContext);
 		md3dImmediateContext->DrawIndexed(36,0,0);
 
-		//ÖØÖÃÎªÄ¬ÈÏµÄäÖÈ¾×´Ì¬
+		//é‡ç½®ä¸ºé»˜è®¤çš„æ¸²æŸ“çŠ¶æ€
 		md3dImmediateContext->RSSetState(0);
 	}
 
